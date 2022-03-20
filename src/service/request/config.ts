@@ -1,0 +1,8 @@
+// 定义公共的常量参数
+let BASE_URL = "";
+const TIME_OUT = 10000;
+if (process.env.NODE_ENV == "development") {
+  // BASE_URL = "http://timemeetyou.com:8889/api/private/v1";
+  BASE_URL = "http://152.136.185.210:5000";
+}
+export { BASE_URL, TIME_OUT };
